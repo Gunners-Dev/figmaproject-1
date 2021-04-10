@@ -1,0 +1,303 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h3, h4, h6{
+    font-family: 'Roboto', sans-serif;
+}
+
+ul li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+ img{
+    size: 100%;
+} 
+/* common css ends */
+
+/* about section css starts */
+
+section{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.about{
+    height: 800px;
+    background-image: url("../images/background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.about_container{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile{
+    flex: 30%;
+    background-color: #783535;
+    height: 800px;
+    margin-right: 1rem;
+}
+
+.about_content{
+    flex: 70%;
+    /* background-color: aqua; */
+    height: 800px;
+}
+
+.intro{
+    text-align: center;
+    color: #E5E5E5;
+    margin-top: 2rem;
+}
+
+.intro h4, intro h6, h6{
+    margin-top: 1rem;
+}
+
+.nav{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.nav ul li{
+    height: 70px;
+    line-height: 70px;   
+    border-bottom: 1px solid #E5E5E5; 
+}
+
+.nav ul li:first-child{
+    background-color: #fff;
+}
+
+.nav ul li a{
+    color: #6CC1F0;
+    font-weight: 800;
+}
+
+.social_area{
+    text-align: center;
+    height: 150px;
+    line-height: 150px;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.social_area ul li{
+    display: inline;
+}
+
+
+.social_area ul li i{
+    color: #6CC1F0;
+    font-size: 1.5rem;
+    border: 1px solid #783535;
+    border-radius: 5px;
+    background-color: #511919;
+    padding: 12px;
+}
+
+.copyright{
+    text-align: center;
+    color: #E5E5E5;
+    height: 60px;
+    line-height: 60px;
+}
+
+.title_area{
+    text-align: center;
+    position: relative;
+    margin-top: 5rem;
+    color: #E5E5E5;
+}
+
+.title_area::after{
+    content: '';
+    width: 60px;
+    height: 5px;
+    border-radius: 2px;
+    background-color: #FF5454;
+    position: absolute;
+    top: 2rem;
+    left: 24rem;
+}
+
+.title_area p{
+    margin-top: 2rem;
+}
+
+.display{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 4rem;
+    color: #fff;
+    border-bottom: 2px solid #E5E5E5;
+}
+
+.display_img{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 5rem;
+}
+
+.display_intro p{
+    margin-top: 1rem;
+}
+
+.display_intro button{
+    margin-top: 2rem;
+    padding: 14px 16px;
+    background-color: #E5E5E5;
+    color: #FF5454;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-weight: 800;
+}
+
+/* common section */
+.container{
+    height: 1000px;
+    background-image: url("../images/background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: -16px;
+}
+
+.container_item{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left_area{
+    flex: 30%;
+    height: 800px;
+    margin-right: 2rem;
+}
+
+.right_area{
+    flex: 70%;
+    height: 800px;
+}
+
+/* cards css */
+.cards{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4rem;
+}
+
+.card{
+    width: 300px;
+    height: 250px;
+    background-color: #C4C4C4;
+    opacity: 90%;
+    color: #fff;
+    padding: 1rem;
+}
+
+.card h4{
+    margin-top: 1rem;
+}
+
+.card_icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #E5E5E5;
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.card_icon i{
+    position: absolute;
+    top: .8rem;
+    left: .7rem;
+    font-size: 1.6rem;
+}
+
+.gallery_content{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 12rem;
+}
+
+.new_gallery{
+    margin-top: -10rem;
+}
+
+.horizantal p{
+    margin-bottom: 8rem;
+}
+
+.horizantal{
+    border-bottom: 2px solid #E5E5E5;
+}
+
+/* contact css */
+.form_area{
+    margin-top: 10rem;
+}
+
+.submission{
+    display: flex;
+    justify-content: space-around;
+}
+
+form input{
+    width: 350px;
+    height: 60px;
+    background-color: transparent;
+    border: 1px solid #6CC1F0;
+    outline: none;
+    margin-left: 3rem;
+}
+
+form input::placeholder{
+    padding-left: 1rem;
+}
+
+.description{
+    width: 750px;
+    height: 200px;
+    margin-top: 2rem;
+}
+
+.address{
+    width: 750px;
+    height: 50px;
+    margin-top: 2rem;
+}
+
+.submit_btn{
+    text-align: center;
+}
+
+.submit{
+    color: #fff;
+    background-color: #6CC1F0;
+    padding: 12px 18px;
+    text-transform: uppercase;
+    margin-top: 2rem;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
